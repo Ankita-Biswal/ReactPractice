@@ -1,4 +1,8 @@
 let ClockSlogan = () => {
-  return <p>This clock shows accurate time according to Indian schedule</p>;
+  return (
+    <p className="lead">
+      This clock shows accurate time according to Indian schedule
+    </p>
+  );
 };
 export default ClockSlogan;

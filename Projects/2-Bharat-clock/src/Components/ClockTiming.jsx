@@ -1,7 +1,9 @@
 let ClockTiming = () => {
+  let time = new Date();
   return (
-    <p>
-      <input type="time" />
+    <p className="lead">
+      This is the current time :{time.toLocaleDateString()}-{""}
+      {time.toLocaleTimeString()}
     </p>
   );
 };
